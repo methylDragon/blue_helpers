@@ -51,7 +51,7 @@ if __name__ == '__main__':
         MOVE_WAIT_TIME = 3
 
     # Get params
-    pickup_ready_joint_positions = np.array([0.0, 0.33, 1.5, -1.6, -1.5, -1.0, 0.0])
+    pickup_ready_joint_positions = np.array([0.0, 0.0, 1.5, -1.6, -1.5, -1.4, 0.0])
     joint_names = rospy.get_param(ARM_PARAM_NS + "joint_names")[:-1]
 
     # Set up messages
